@@ -3,4 +3,7 @@
   border: 15px solid #b09f0e;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
