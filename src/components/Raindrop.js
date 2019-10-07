@@ -1,6 +1,7 @@
 import React from 'react';
 import Img from 'react-image';
-// import Firebase from 'firebase/firestore';
+import Firebase from 'firebase/app';
+import 'firebase/firestore';
 
 class Raindrop extends React.Component {
   constructor(props) {
@@ -15,13 +16,18 @@ class Raindrop extends React.Component {
     }
   }
 
-  // componentDidMount() {
+  componentDidMount() {
+    const db = Firebase.firestore();
+    const currentCommandRef = db.collection('commands').doc('current');
 
-  // }
+    currentCommandRef.onSnapshot((doc) => {
+      console.log('Current command: ', doc.data().command);
+    });
+  }
 
   render() {
     const { imageUrlIndex, imageUrls } = this.state;
-    
+
     return (
       <Img src={imageUrls[imageUrlIndex]} />
     );
