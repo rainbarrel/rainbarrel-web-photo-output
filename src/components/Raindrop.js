@@ -9,9 +9,9 @@ class Raindrop extends React.Component {
     this.state = {
       imageUrlIndex: 0,
       imageUrls: [
-        'https://firebasestorage.googleapis.com/v0/b/rainbarrel-dev.appspot.com/o/images%2Fgame.jpg?alt=media&token=bca4b15d-9c19-4e40-95bc-fa018a274085',
-        'https://firebasestorage.googleapis.com/v0/b/rainbarrel-dev.appspot.com/o/images%2Fnick.png?alt=media&token=8b995dbb-1f78-474a-b9a4-d4682bbd89a5',
-        'https://firebasestorage.googleapis.com/v0/b/rainbarrel-dev.appspot.com/o/images%2Fsnow.png?alt=media&token=2a4b4a60-12ed-4333-a678-8ed10dfaeac9'
+        'https://firebasestorage.googleapis.com/v0/b/rainbarrel-dev.appspot.com/o/images%2Fyoga.GIF?alt=media&token=1da9c88a-ebfe-45eb-9aaf-c2a13116746e',
+        'https://firebasestorage.googleapis.com/v0/b/rainbarrel-dev.appspot.com/o/images%2Fsnow.png?alt=media&token=2a4b4a60-12ed-4333-a678-8ed10dfaeac9',
+        'https://firebasestorage.googleapis.com/v0/b/rainbarrel-dev.appspot.com/o/images%2Fmckay.jpg?alt=media&token=e743ef3b-ea0d-4099-ad41-4a5ef0c28ff4'
       ],
       initial: true,
     }
