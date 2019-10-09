@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Default = () => {
-  const message = "Welcome to Rainbarrel, where we will use the power of your voice to view your beautiful photos sent from all around the world to you."
+  const message = "When you start viewing your photos, they will show up right here. Happy viewing!"
 
   return (
     <div>
